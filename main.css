@@ -1,3 +1,5 @@
+/* Style all pages */
+
 .fondo {
     background-color: rgb(255, 255, 255);
 }
@@ -38,3 +40,54 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+section {
+    padding-top: 2%;
+}
+
+/* Style contact page */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+input {
+    margin-top: 2%;
+    border: none;
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+
+textarea {
+    margin-top: 1%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+button {
+    margin-top: 1%;
+}
+
+input:focus-visible {
+    outline:none;
+}
+
+textarea:focus-visible {
+    outline:none;
+}
+
+.izquierda {
+    width: 49%;
+}
+.derecha {
+    width:50%;
+    margin-left: 50%;
+    margin-top: -2.5%;
+}
+.derecha2 {
+    width:50%;
+    margin-left: 50%;
+    margin-top: -2.9%;
+}
+/* Style index page */
