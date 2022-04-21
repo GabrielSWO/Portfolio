@@ -1,0 +1,40 @@
+.fondo {
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecero {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 150Px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.caberoList1 {
+    margin-left: 25%;
+}
+
+.caberoList3 {
+    margin-right: 25%;
+}
+
+a {
+    text-decoration: none; 
+    padding: 20px 20px;
+    background-color: rgb(230, 61, 61);
+    border-radius: 20px;
+    color:rgb(0, 0, 0);
+}
+
+a:hover {
+    background-color: rgb(245, 113, 6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
