@@ -1,17 +1,14 @@
 /* Style all pages */
 
-.fondo {
-    background-color: rgb(255, 255, 255);
-}
-
 .cabecero {
     text-align: center;
     list-style: none;
+    
 }
 
 li {
     display: inline;
-    margin-left: 150Px;
+    margin-left: 150px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
@@ -24,7 +21,7 @@ li {
     margin-right: 25%;
 }
 
-a {
+.cabeza {
     text-decoration: none; 
     padding: 20px 20px;
     background-color: rgb(230, 61, 61);
@@ -32,7 +29,7 @@ a {
     color:rgb(0, 0, 0);
 }
 
-a:hover {
+.cabeza:hover {
     background-color: rgb(245, 113, 6);
 }
 
@@ -83,11 +80,26 @@ textarea:focus-visible {
 .derecha {
     width:50%;
     margin-left: 50%;
-    margin-top: -2.5%;
+    margin-top: -1.37em;
 }
 .derecha2 {
     width:50%;
     margin-left: 50%;
-    margin-top: -2.9%;
+    margin-top: -1.55em;
 }
 /* Style index page */
+
+.zoom {
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
