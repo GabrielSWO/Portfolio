@@ -13,6 +13,12 @@ li {
     text-transform: uppercase;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color :black;
+    font-weight: bold;
+}
+
 .caberoList1 {
     margin-left: 25%;
 }
@@ -101,7 +107,11 @@ textarea:focus-visible {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
-
+.card-img-top {
+    padding: 10px;
+    height: 70px;
+    width: 150px;
+}
 h5 {
     text-align: center;
     
